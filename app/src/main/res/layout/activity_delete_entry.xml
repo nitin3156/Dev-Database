@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="#fff"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_driver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/editText18"
+            android:hint="Enter the data ID"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"
+             />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:id="@+id/del"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonmystyle"
+            android:onClick="deletingdata" />
+
+
+
+
+    </LinearLayout>
+

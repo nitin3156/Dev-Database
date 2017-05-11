@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="#fff"
+            android:padding="10dp"
+            android:layout_alignParentTop="true"
+            android:weightSum="1">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/editText10"
+                    android:hint="Id"
+                    android:inputType="number"
+                    android:layout_marginBottom="15dp"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/editText11"
+                android:hint="From"
+
+                android:layout_marginBottom="15dp"
+
+               />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+
+                    android:id="@+id/editText12"
+                    android:hint="To"
+                    android:layout_marginBottom="15dp"
+                     />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_fare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+
+                    android:id="@+id/editText13"
+                    android:layout_marginBottom="15dp"
+                    android:hint="Fare"
+                    android:inputType="number"
+                     />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+
+                    android:layout_marginBottom="15dp"
+                    android:hint="Date"
+                    android:inputType="date"
+                    android:id="@+id/editText14"
+                    android:autoText="false"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_Vech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+
+                    android:layout_marginBottom="15dp"
+                    android:hint="Vehicle no"
+                    android:inputType="number"
+                    android:id="@+id/editText15"
+
+                    android:autoText="false"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_driver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+
+                    android:layout_marginBottom="15dp"
+                    android:hint="Driver Charges"
+                    android:inputType="number"
+                    android:id="@+id/editText16"
+                    android:autoText="false"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_diesel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+
+                    android:layout_marginBottom="15dp"
+                    android:hint="Diesel Charges"
+
+                    android:inputType="number"
+                    android:id="@+id/editText17"
+                    android:autoText="false"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/payspinner1"
+                android:layout_marginEnd="34dp"
+
+                android:layout_alignParentEnd="true">
+
+            </Spinner>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Press Normal to edit / Long to update"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonmystyle"
+                android:id="@+id/button4"
+                android:textColor="#FFF"
+                 />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

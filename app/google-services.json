@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1024230825877",
+    "firebase_url": "https://devdatabase-9bf74.firebaseio.com",
+    "project_id": "devdatabase-9bf74",
+    "storage_bucket": "devdatabase-9bf74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024230825877:android:58f94ed016c856bc",
+        "android_client_info": {
+          "package_name": "com.example.nitintonger.devdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024230825877-q50r5v6gk3gl8oidp045ab4tup12v6ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH9Ezz51XvITOZTehKib-tPu-T-GBBJzo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
